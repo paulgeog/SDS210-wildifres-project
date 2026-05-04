@@ -31,4 +31,6 @@ cp .env.example .env
 **Make sure the `.env` file is in the same directory where you run the notebook.**
 ### 2.3. Run
 Then, open the `wildfires.ipynb` jupyter notebook and execute the cells.
-
+## 3. Ressources
+### 3.1. FIRMS API
+This is an API provided by NASA in scope of the FIRMS program. More information can be found here: https://firms.modaps.eosdis.nasa.gov/api/ 
