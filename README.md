@@ -6,12 +6,21 @@ This project aims at pulling wildfire data from an API provided by Fire Informat
 An in-depth description of the projects structure, purpose and inner workings
 ## 2. Getting started
 ### 2.1. Requirements
-- Python 3.10+
-- pip packages listed in requirements.txt  
+- Conda (Miniconda or Anaconda)
+- Python 3.14
+- dependencies listed in `environment.yml`
+- `nbstripout` for automatic notebook cleanup (installed via environment but requires additional step). This is needed when committing `.ipynb` files to the repository.
 
-Install dependencies inside your environment:
+#### 2.1.1. Installation of dependencies
+Create and activate the new conda environment:
 ```bash
-pip install -r requirements.txt
+conda env create -f environment.yml
+conda activate wildfires-env
+```
+#### 2.1.2. Enable notebook output stripping
+Inside the activated environment:
+```bash
+nbstripout --install
 ```
 ### 2.2. API Key
 #### 2.2.1. Get individual API-key
