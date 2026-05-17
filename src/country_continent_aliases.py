@@ -2,335 +2,333 @@ ALIASES = {
 
     # ── Afghanistan ───────────────────────────────────────────────────────────
     "afghan":                                       "afghanistan",
-    "islamic republic of afghanistan":              "afghanistan",
+    "islamicrepublicofafghanistan":                 "afghanistan",
 
     # ── Albania ───────────────────────────────────────────────────────────────
-    "republic of albania":                          "albania",
+    "republicofalbania":                            "albania",
     "shqiperia":                                    "albania",
 
     # ── Algeria ───────────────────────────────────────────────────────────────
     "algerie":                                      "algeria",
-    "peoples democratic republic of algeria":       "algeria",
+    "peoplesdemocraticrepublicofalgeria":           "algeria",
 
     # ── Andorra ───────────────────────────────────────────────────────────────
-    "principality of andorra":                      "andorra",
+    "principalityofandorra":                        "andorra",
 
     # ── Angola ────────────────────────────────────────────────────────────────
-    "republic of angola":                           "angola",
+    "republicofangola":                             "angola",
 
     # ── Antigua and Barbuda ───────────────────────────────────────────────────
-    "antigua":                                      "antigua and barbuda",
-    "antigua barbuda":                              "antigua and barbuda",
-    "barbuda":                                      "antigua and barbuda",
+    "antigua":                                      "antiguaandbarbuda",
+    "antiguabarbuda":                               "antiguaandbarbuda",
+    "barbuda":                                      "antiguaandbarbuda",
 
     # ── Argentina ─────────────────────────────────────────────────────────────
-    "argentine republic":                           "argentina",
+    "argentinerepublic":                            "argentina",
     "argentinian":                                  "argentina",
 
     # ── Armenia ───────────────────────────────────────────────────────────────
-    "republic of armenia":                          "armenia",
+    "republicofarmenia":                            "armenia",
     "hayastan":                                     "armenia",
 
     # ── Australia ─────────────────────────────────────────────────────────────
-    "commonwealth of australia":                    "australia",
+    "commonwealthofaustralia":                      "australia",
     "aus":                                          "australia",
     "oz":                                           "australia",
 
     # ── Austria ───────────────────────────────────────────────────────────────
-    "republic of austria":                          "austria",
+    "republicofaustria":                            "austria",
     "osterreich":                                   "austria",
 
     # ── Azerbaijan ────────────────────────────────────────────────────────────
-    "republic of azerbaijan":                       "azerbaijan",
-    "azerbaijani republic":                         "azerbaijan",
+    "republicofazerbaijan":                         "azerbaijan",
+    "azerbaijanirepublic":                          "azerbaijan",
 
     # ── Bahrain ───────────────────────────────────────────────────────────────
-    "kingdom of bahrain":                           "bahrain",
+    "kingdomofbahrain":                             "bahrain",
     "bahrein":                                      "bahrain",
 
     # ── Bangladesh ────────────────────────────────────────────────────────────
-    "peoples republic of bangladesh":               "bangladesh",
-    "bangla desh":                                  "bangladesh",
+    "peoplesrepublicofbangladesh":                  "bangladesh",
+    "bangladesh":                                   "bangladesh",
 
     # ── Belarus ───────────────────────────────────────────────────────────────
-    "republic of belarus":                          "belarus",
+    "republicofbelarus":                            "belarus",
     "byelorussia":                                  "belarus",
     "belorussia":                                   "belarus",
     "bielorussia":                                  "belarus",
 
     # ── Belgium ───────────────────────────────────────────────────────────────
-    "kingdom of belgium":                           "belgium",
+    "kingdomofbelgium":                             "belgium",
     "belgique":                                     "belgium",
     "belgie":                                       "belgium",
 
     # ── Belize ────────────────────────────────────────────────────────────────
-    "british honduras":                             "belize",
+    "britishhonduras":                              "belize",
 
     # ── Benin ─────────────────────────────────────────────────────────────────
-    "republic of benin":                            "benin",
+    "republicofbenin":                              "benin",
     "dahomey":                                      "benin",
 
     # ── Bhutan ────────────────────────────────────────────────────────────────
-    "kingdom of bhutan":                            "bhutan",
-    "druk yul":                                     "bhutan",
+    "kingdomofbhutan":                              "bhutan",
+    "drukyul":                                      "bhutan",
 
     # ── Bolivia ───────────────────────────────────────────────────────────────
-    "plurinational state of bolivia":               "bolivia",
-    "republic of bolivia":                          "bolivia",
+    "plurinationalstateofbolivia":                  "bolivia",
+    "republicofbolivia":                            "bolivia",
 
     # ── Bosnia and Herzegovina ────────────────────────────────────────────────
-    "bosnia":                                       "bosnia and herzegovina",
-    "herzegovina":                                  "bosnia and herzegovina",
-    "bosnia herzegovina":                           "bosnia and herzegovina",
-    "bih":                                          "bosnia and herzegovina",
-    "bosnia herzegowina":                           "bosnia and herzegovina",
+    "bosnia":                                       "bosniaandherzegovina",
+    "herzegovina":                                  "bosniaandherzegovina",
+    "bosniaherzegovina":                            "bosniaandherzegovina",
+    "bih":                                          "bosniaandherzegovina",
+    "bosniaherzegowina":                            "bosniaandherzegovina",
 
     # ── Botswana ──────────────────────────────────────────────────────────────
-    "republic of botswana":                         "botswana",
+    "republicofbotswana":                           "botswana",
     "bechuanaland":                                 "botswana",
 
     # ── Brazil ────────────────────────────────────────────────────────────────
     "brasil":                                       "brazil",
-    "federative republic of brazil":                "brazil",
+    "federativerepublicofbrazil":                   "brazil",
     "bra":                                          "brazil",
 
     # ── Brunei ────────────────────────────────────────────────────────────────
-    "brunei darussalam":                            "brunei",
-    "nation of brunei":                             "brunei",
+    "bruneidarussalam":                             "brunei",
+    "nationofbrunei":                               "brunei",
 
     # ── Bulgaria ──────────────────────────────────────────────────────────────
-    "republic of bulgaria":                         "bulgaria",
+    "republicofbulgaria":                           "bulgaria",
 
     # ── Burkina Faso ──────────────────────────────────────────────────────────
-    "burkina":                                      "burkina faso",
-    "upper volta":                                  "burkina faso",
+    "burkina":                                      "burkinafaso",
+    "uppervolta":                                   "burkinafaso",
 
     # ── Burundi ───────────────────────────────────────────────────────────────
-    "republic of burundi":                          "burundi",
+    "republicofburundi":                            "burundi",
 
     # ── Cabo Verde ────────────────────────────────────────────────────────────
-    "cape verde":                                   "cabo verde",
-    "republic of cabo verde":                       "cabo verde",
-    "republic of cape verde":                       "cabo verde",
+    "capeverde":                                    "caboverde",
+    "republicofcaboverde":                          "caboverde",
+    "republicofcapeverde":                          "caboverde",
 
     # ── Cambodia ──────────────────────────────────────────────────────────────
-    "kingdom of cambodia":                          "cambodia",
-    "khmer republic":                               "cambodia",
+    "kingdomofcambodia":                            "cambodia",
+    "khmerrepublic":                                "cambodia",
     "kampuchea":                                    "cambodia",
 
     # ── Cameroon ──────────────────────────────────────────────────────────────
-    "republic of cameroon":                         "cameroon",
+    "republicofcameroon":                           "cameroon",
     "cameroun":                                     "cameroon",
 
     # ── Central African Republic ──────────────────────────────────────────────
-    "car":                                          "central african republic",
-    "central africa":                               "central african republic",
-    "centrafrique":                                 "central african republic",
-    "central african rep":                          "central african republic",
+    "car":                                          "centralafricanrepublic",
+    "centralafrica":                                "centralafricanrepublic",
+    "centrafrique":                                 "centralafricanrepublic",
+    "centralafrricanrep":                           "centralafricanrepublic",
 
     # ── Chad ──────────────────────────────────────────────────────────────────
-    "republic of chad":                             "chad",
+    "republicofchad":                               "chad",
     "tchad":                                        "chad",
 
     # ── Chile ─────────────────────────────────────────────────────────────────
-    "republic of chile":                            "chile",
+    "republicofchile":                              "chile",
 
     # ── China ─────────────────────────────────────────────────────────────────
-    "peoples republic of china":                    "china",
+    "peoplesrepublicofchina":                       "china",
     "prc":                                          "china",
-    "mainland china":                               "china",
+    "mainlandchina":                                "china",
     "zhongguo":                                     "china",
     "chn":                                          "china",
 
     # ── Colombia ──────────────────────────────────────────────────────────────
-    "republic of colombia":                         "colombia",
+    "republicofcolombia":                           "colombia",
     "columbia":                                     "colombia",
 
     # ── Comoros ───────────────────────────────────────────────────────────────
-    "union of the comoros":                         "comoros",
-    "comoro islands":                               "comoros",
+    "unionofthecomoros":                            "comoros",
+    "comoroislands":                                "comoros",
     "comores":                                      "comoros",
 
     # ── Costa Rica ────────────────────────────────────────────────────────────
-    "republic of costa rica":                       "costa rica",
+    "republicofcostarica":                          "costarica",
 
     # ── Croatia ───────────────────────────────────────────────────────────────
-    "republic of croatia":                          "croatia",
+    "republicofcroatia":                            "croatia",
     "hrvatska":                                     "croatia",
 
     # ── Cuba ──────────────────────────────────────────────────────────────────
-    "republic of cuba":                             "cuba",
+    "republicofcuba":                               "cuba",
 
     # ── Cyprus ────────────────────────────────────────────────────────────────
-    "republic of cyprus":                           "cyprus",
+    "republicofcyprus":                             "cyprus",
     "kypros":                                       "cyprus",
 
     # ── Czechia ───────────────────────────────────────────────────────────────
-    "czech republic":                               "czechia",
+    "czechrepublic":                                "czechia",
     "czech":                                        "czechia",
-    "ceska republika":                              "czechia",
+    "ceskarepublika":                               "czechia",
     "bohemia":                                      "czechia",
     "cze":                                          "czechia",
 
     # ── Democratic Republic of the Congo ─────────────────────────────────────
-    "dr congo":                                     "democratic republic of the congo",
-    "drc":                                          "democratic republic of the congo",
-    "congo kinshasa":                               "democratic republic of the congo",
-    "zaire":                                        "democratic republic of the congo",
-    "dem rep of the congo":                         "democratic republic of the congo",
-    "congo dr":                                     "democratic republic of the congo",
+    "drcongo":                                      "democraticrepublicofthecongo",
+    "drc":                                          "democraticrepublicofthecongo",
+    "congokinshasa":                                "democraticrepublicofthecongo",
+    "zaire":                                        "democraticrepublicofthecongo",
+    "demrepofthecongo":                             "democraticrepublicofthecongo",
+    "congodr":                                      "democraticrepublicofthecongo",
 
     # ── Denmark ───────────────────────────────────────────────────────────────
-    "kingdom of denmark":                           "denmark",
+    "kingdomofdenmark":                             "denmark",
     "danmark":                                      "denmark",
 
     # ── Djibouti ──────────────────────────────────────────────────────────────
-    "republic of djibouti":                         "djibouti",
+    "republicofdjibouti":                           "djibouti",
     "jibuti":                                       "djibouti",
 
     # ── Dominica ──────────────────────────────────────────────────────────────
-    "commonwealth of dominica":                     "dominica",
+    "commonwealthofdominica":                       "dominica",
 
     # ── Dominican Republic ────────────────────────────────────────────────────
-    "republica dominicana":                         "dominican republic",
-    "dom rep":                                      "dominican republic",
+    "republicadominicana":                          "dominicanrepublic",
+    "domrep":                                       "dominicanrepublic",
 
     # ── East Timor ────────────────────────────────────────────────────────────
-    "timor leste":                                  "east timor",
-    "timorleste":                                   "east timor",
-    "timor":                                        "east timor",
-    "democratic republic of timor leste":           "east timor",
+    "timorleste":                                   "easttimor",
+    "timor":                                        "easttimor",
+    "democraticrepublicoftimorleste":               "easttimor",
 
     # ── Ecuador ───────────────────────────────────────────────────────────────
-    "republic of ecuador":                          "ecuador",
+    "republicofecuador":                            "ecuador",
 
     # ── Egypt ─────────────────────────────────────────────────────────────────
-    "arab republic of egypt":                       "egypt",
+    "arabrepublicofegypt":                          "egypt",
     "misr":                                         "egypt",
-    "united arab republic":                         "egypt",
+    "unitedarabrepublic":                           "egypt",
 
     # ── El Salvador ───────────────────────────────────────────────────────────
-    "republic of el salvador":                      "el salvador",
-    "salvador":                                     "el salvador",
+    "republicofelsalvador":                         "elsalvador",
+    "salvador":                                     "elsalvador",
 
     # ── Equatorial Guinea ─────────────────────────────────────────────────────
-    "guinea ecuatorial":                            "equatorial guinea",
-    "eq guinea":                                    "equatorial guinea",
+    "guineaecuatorial":                             "equatorialguinea",
+    "eqguinea":                                     "equatorialguinea",
 
     # ── Eritrea ───────────────────────────────────────────────────────────────
-    "state of eritrea":                             "eritrea",
+    "stateoferitrea":                               "eritrea",
 
     # ── Estonia ───────────────────────────────────────────────────────────────
-    "republic of estonia":                          "estonia",
+    "republicofestonia":                            "estonia",
     "eesti":                                        "estonia",
 
     # ── Ethiopia ──────────────────────────────────────────────────────────────
-    "federal democratic republic of ethiopia":      "ethiopia",
+    "federaldemocraticrepublicofethiopia":          "ethiopia",
     "abyssinia":                                    "ethiopia",
 
     # ── Federated States of Micronesia ────────────────────────────────────────
-    "micronesia":                                   "federated states of micronesia",
-    "fsm":                                          "federated states of micronesia",
+    "micronesia":                                   "federatedstatesofmicronesia",
+    "fsm":                                          "federatedstatesofmicronesia",
 
     # ── Fiji ──────────────────────────────────────────────────────────────────
-    "republic of fiji":                             "fiji",
-    "fiji islands":                                 "fiji",
+    "republicoffiji":                               "fiji",
+    "fijiislands":                                  "fiji",
 
     # ── Finland ───────────────────────────────────────────────────────────────
-    "republic of finland":                          "finland",
+    "republicoffinland":                            "finland",
     "suomi":                                        "finland",
 
     # ── France ────────────────────────────────────────────────────────────────
-    "french republic":                              "france",
+    "frenchrepublic":                               "france",
     "fra":                                          "france",
 
     # ── Gabon ─────────────────────────────────────────────────────────────────
-    "gabonese republic":                            "gabon",
+    "gaboneserepublic":                             "gabon",
 
     # ── Gambia ────────────────────────────────────────────────────────────────
-    "the gambia":                                   "gambia",
-    "republic of the gambia":                       "gambia",
+    "thegambia":                                    "gambia",
+    "republicofthegambia":                          "gambia",
 
     # ── Georgia ───────────────────────────────────────────────────────────────
-    "republic of georgia":                          "georgia",
+    "republicofgeorgia":                            "georgia",
     "sakartvelo":                                   "georgia",
 
     # ── Germany ───────────────────────────────────────────────────────────────
-    "federal republic of germany":                  "germany",
+    "federalrepublicofgermany":                     "germany",
     "deutschland":                                  "germany",
     "deu":                                          "germany",
 
     # ── Ghana ─────────────────────────────────────────────────────────────────
-    "republic of ghana":                            "ghana",
-    "gold coast":                                   "ghana",
+    "republicofghana":                              "ghana",
+    "goldcoast":                                    "ghana",
 
     # ── Greece ────────────────────────────────────────────────────────────────
-    "hellenic republic":                            "greece",
+    "hellenicrepublic":                             "greece",
     "hellas":                                       "greece",
     "grecia":                                       "greece",
 
     # ── Guatemala ─────────────────────────────────────────────────────────────
-    "republic of guatemala":                        "guatemala",
+    "republicofguatemala":                          "guatemala",
 
     # ── Guinea ────────────────────────────────────────────────────────────────
-    "republic of guinea":                           "guinea",
-    "guinea conakry":                               "guinea",
+    "republicofguinea":                             "guinea",
+    "guineaconakry":                                "guinea",
 
     # ── Guinea-Bissau ─────────────────────────────────────────────────────────
-    "guinea bissau":                                "guineabissau",
-    "republic of guinea bissau":                    "guineabissau",
-    "republic of guineabissau":                     "guineabissau",
+    "guineabissau":                                 "guineabissau",
+    "republicofguineabissau":                       "guineabissau",
 
     # ── Guyana ────────────────────────────────────────────────────────────────
-    "cooperative republic of guyana":               "guyana",
-    "british guiana":                               "guyana",
+    "cooperativerepublicofguyana":                  "guyana",
+    "britishguiana":                                "guyana",
 
     # ── Haiti ─────────────────────────────────────────────────────────────────
-    "republic of haiti":                            "haiti",
+    "republicofhaiti":                              "haiti",
     "ayiti":                                        "haiti",
 
     # ── Honduras ──────────────────────────────────────────────────────────────
-    "republic of honduras":                         "honduras",
+    "republicofhonduras":                           "honduras",
 
     # ── Hungary ───────────────────────────────────────────────────────────────
     "magyarorszag":                                 "hungary",
 
     # ── Iceland ───────────────────────────────────────────────────────────────
-    "republic of iceland":                          "iceland",
+    "republicoficeland":                            "iceland",
     "island":                                       "iceland",
 
     # ── India ─────────────────────────────────────────────────────────────────
-    "republic of india":                            "india",
+    "republicofindia":                              "india",
     "bharat":                                       "india",
     "hindustan":                                    "india",
     "ind":                                          "india",
 
     # ── Indonesia ─────────────────────────────────────────────────────────────
-    "republic of indonesia":                        "indonesia",
+    "republicofindonesia":                          "indonesia",
     "idn":                                          "indonesia",
 
     # ── Iran ──────────────────────────────────────────────────────────────────
-    "islamic republic of iran":                     "iran",
+    "islamicrepublicofiran":                        "iran",
     "persia":                                       "iran",
 
     # ── Iraq ──────────────────────────────────────────────────────────────────
-    "republic of iraq":                             "iraq",
+    "republicofiraq":                               "iraq",
 
     # ── Ireland ───────────────────────────────────────────────────────────────
-    "republic of ireland":                          "ireland",
+    "republicofireland":                            "ireland",
     "eire":                                         "ireland",
 
     # ── Israel ────────────────────────────────────────────────────────────────
-    "state of israel":                              "israel",
+    "stateofisrael":                                "israel",
 
     # ── Italy ─────────────────────────────────────────────────────────────────
-    "italian republic":                             "italy",
+    "italianrepublic":                              "italy",
     "italia":                                       "italy",
 
     # ── Ivory Coast ───────────────────────────────────────────────────────────
-    "cote divoire":                                 "ivory coast",
-    "cote d ivoire":                                "ivory coast",
-    "republic of cote divoire":                     "ivory coast",
+    "cotedivoire":                                  "ivorycoast",
+    "cotedivoire":                                  "ivorycoast",
+    "republicofcotedivoire":                        "ivorycoast",
 
     # ── Japan ─────────────────────────────────────────────────────────────────
     "nippon":                                       "japan",
@@ -338,337 +336,337 @@ ALIASES = {
     "jpn":                                          "japan",
 
     # ── Jordan ────────────────────────────────────────────────────────────────
-    "hashemite kingdom of jordan":                  "jordan",
+    "hashemitekingdomofjordan":                     "jordan",
     "transjordan":                                  "jordan",
 
     # ── Kazakhstan ────────────────────────────────────────────────────────────
-    "republic of kazakhstan":                       "kazakhstan",
+    "republicofkazakhstan":                         "kazakhstan",
     "kazakstan":                                    "kazakhstan",
 
     # ── Kenya ─────────────────────────────────────────────────────────────────
-    "republic of kenya":                            "kenya",
+    "republicofkenya":                              "kenya",
 
     # ── Kiribati ──────────────────────────────────────────────────────────────
-    "republic of kiribati":                         "kiribati",
-    "gilbert islands":                              "kiribati",
+    "republicofkiribati":                           "kiribati",
+    "gilbertislands":                               "kiribati",
 
     # ── Kosovo ────────────────────────────────────────────────────────────────
-    "republic of kosovo":                           "kosovo",
+    "republicofkosovo":                             "kosovo",
     "kosova":                                       "kosovo",
     "kosove":                                       "kosovo",
 
     # ── Kuwait ────────────────────────────────────────────────────────────────
-    "state of kuwait":                              "kuwait",
+    "stateofkuwait":                                "kuwait",
 
     # ── Kyrgyzstan ────────────────────────────────────────────────────────────
-    "kyrgyz republic":                              "kyrgyzstan",
+    "kyrgyzrepublic":                               "kyrgyzstan",
     "kirghizia":                                    "kyrgyzstan",
     "kirghizstan":                                  "kyrgyzstan",
     "kirgizstan":                                   "kyrgyzstan",
 
     # ── Laos ──────────────────────────────────────────────────────────────────
     "lao":                                          "laos",
-    "lao pdr":                                      "laos",
-    "lao peoples democratic republic":              "laos",
+    "laopdr":                                       "laos",
+    "laopeoplesdemocraticrepublic":                 "laos",
 
     # ── Latvia ────────────────────────────────────────────────────────────────
-    "republic of latvia":                           "latvia",
+    "republicoflatvia":                             "latvia",
     "latvija":                                      "latvia",
 
     # ── Lebanon ───────────────────────────────────────────────────────────────
-    "lebanese republic":                            "lebanon",
+    "lebaneserepublic":                             "lebanon",
     "liban":                                        "lebanon",
 
     # ── Lesotho ───────────────────────────────────────────────────────────────
-    "kingdom of lesotho":                           "lesotho",
+    "kingdomoflesotho":                             "lesotho",
     "basutoland":                                   "lesotho",
 
     # ── Liberia ───────────────────────────────────────────────────────────────
-    "republic of liberia":                          "liberia",
+    "republicofliberia":                            "liberia",
 
     # ── Libya ─────────────────────────────────────────────────────────────────
-    "state of libya":                               "libya",
-    "libyan arab jamahiriya":                       "libya",
+    "stateoflibya":                                 "libya",
+    "libyanarabjamahiriya":                         "libya",
 
     # ── Liechtenstein ─────────────────────────────────────────────────────────
-    "principality of liechtenstein":                "liechtenstein",
+    "principalityofliechtenstein":                  "liechtenstein",
 
     # ── Lithuania ─────────────────────────────────────────────────────────────
-    "republic of lithuania":                        "lithuania",
+    "republicoflithuania":                          "lithuania",
     "lietuva":                                      "lithuania",
 
     # ── Luxembourg ────────────────────────────────────────────────────────────
-    "grand duchy of luxembourg":                    "luxembourg",
+    "grandduchyofluxembourg":                       "luxembourg",
     "luxemburg":                                    "luxembourg",
 
     # ── Madagascar ────────────────────────────────────────────────────────────
-    "republic of madagascar":                       "madagascar",
-    "malagasy republic":                            "madagascar",
+    "republicofmadagascar":                         "madagascar",
+    "malagasyrepublic":                             "madagascar",
 
     # ── Malawi ────────────────────────────────────────────────────────────────
-    "republic of malawi":                           "malawi",
+    "republicofmalawi":                             "malawi",
     "nyasaland":                                    "malawi",
 
     # ── Malaysia ──────────────────────────────────────────────────────────────
-    "federation of malaysia":                       "malaysia",
+    "federationofmalaysia":                         "malaysia",
 
     # ── Maldives ──────────────────────────────────────────────────────────────
-    "republic of maldives":                         "maldives",
-    "maldive islands":                              "maldives",
+    "republicofmaldives":                           "maldives",
+    "maldiveislands":                               "maldives",
 
     # ── Mali ──────────────────────────────────────────────────────────────────
-    "republic of mali":                             "mali",
+    "republicofmali":                               "mali",
 
     # ── Malta ─────────────────────────────────────────────────────────────────
-    "republic of malta":                            "malta",
+    "republicofmalta":                              "malta",
 
     # ── Marshall Islands ──────────────────────────────────────────────────────
-    "republic of the marshall islands":             "marshall islands",
+    "republicofthemarshallislands":                 "marshallislands",
 
     # ── Mauritania ────────────────────────────────────────────────────────────
-    "islamic republic of mauritania":               "mauritania",
+    "islamicrepublicofmauritania":                  "mauritania",
     "mauritanie":                                   "mauritania",
 
     # ── Mauritius ─────────────────────────────────────────────────────────────
-    "republic of mauritius":                        "mauritius",
-    "ile maurice":                                  "mauritius",
+    "republicofmauritius":                          "mauritius",
+    "ilemaurice":                                   "mauritius",
 
     # ── Mexico ────────────────────────────────────────────────────────────────
-    "united mexican states":                        "mexico",
+    "unitedmexicanstates":                          "mexico",
     "mejico":                                       "mexico",
     "mex":                                          "mexico",
 
     # ── Moldova ───────────────────────────────────────────────────────────────
-    "republic of moldova":                          "moldova",
+    "republicofmoldova":                            "moldova",
     "moldavia":                                     "moldova",
 
     # ── Monaco ────────────────────────────────────────────────────────────────
-    "principality of monaco":                       "monaco",
+    "principalityofmonaco":                         "monaco",
 
     # ── Mongolia ──────────────────────────────────────────────────────────────
-    "outer mongolia":                               "mongolia",
-    "mongolian peoples republic":                   "mongolia",
+    "outermongolia":                                "mongolia",
+    "mongolianpeoplesrepublic":                     "mongolia",
 
     # ── Montenegro ────────────────────────────────────────────────────────────
-    "republic of montenegro":                       "montenegro",
-    "crna gora":                                    "montenegro",
+    "republicofmontenegro":                         "montenegro",
+    "crnagora":                                     "montenegro",
 
     # ── Morocco ───────────────────────────────────────────────────────────────
-    "kingdom of morocco":                           "morocco",
+    "kingdomofmorocco":                             "morocco",
     "maroc":                                        "morocco",
     "marruecos":                                    "morocco",
 
     # ── Mozambique ────────────────────────────────────────────────────────────
-    "republic of mozambique":                       "mozambique",
+    "republicofmozambique":                         "mozambique",
     "mocambique":                                   "mozambique",
 
     # ── Myanmar ───────────────────────────────────────────────────────────────
     "burma":                                        "myanmar",
-    "republic of the union of myanmar":             "myanmar",
+    "republicoftheunionofmyanmar":                  "myanmar",
 
     # ── Namibia ───────────────────────────────────────────────────────────────
-    "republic of namibia":                          "namibia",
-    "south west africa":                            "namibia",
+    "republicofnamibia":                            "namibia",
+    "southwestafrica":                              "namibia",
 
     # ── Nauru ─────────────────────────────────────────────────────────────────
-    "republic of nauru":                            "nauru",
+    "republicofnauru":                              "nauru",
 
     # ── Nepal ─────────────────────────────────────────────────────────────────
-    "federal democratic republic of nepal":         "nepal",
+    "federaldemocraticrepublicofnepal":             "nepal",
 
     # ── Netherlands ───────────────────────────────────────────────────────────
-    "the netherlands":                              "netherlands",
+    "thenetherlands":                               "netherlands",
     "holland":                                      "netherlands",
-    "kingdom of the netherlands":                   "netherlands",
+    "kingdomofthenetherlands":                      "netherlands",
     "nederland":                                    "netherlands",
 
     # ── New Zealand ───────────────────────────────────────────────────────────
-    "nz":                                           "new zealand",
-    "aotearoa":                                     "new zealand",
-    "nzl":                                          "new zealand",
+    "nz":                                           "newzealand",
+    "aotearoa":                                     "newzealand",
+    "nzl":                                          "newzealand",
 
     # ── Nicaragua ─────────────────────────────────────────────────────────────
-    "republic of nicaragua":                        "nicaragua",
+    "republicofnicaragua":                          "nicaragua",
 
     # ── Niger ─────────────────────────────────────────────────────────────────
-    "republic of niger":                            "niger",
+    "republicofniger":                              "niger",
 
     # ── Nigeria ───────────────────────────────────────────────────────────────
-    "federal republic of nigeria":                  "nigeria",
+    "federalrepublicofnigeria":                     "nigeria",
 
     # ── North Korea ───────────────────────────────────────────────────────────
-    "dprk":                                         "north korea",
-    "democratic peoples republic of korea":         "north korea",
-    "prk":                                          "north korea",
+    "dprk":                                         "northkorea",
+    "democraticpeoplesrepublicofkorea":             "northkorea",
+    "prk":                                          "northkorea",
 
     # ── North Macedonia ───────────────────────────────────────────────────────
-    "republic of north macedonia":                  "north macedonia",
-    "macedonia":                                    "north macedonia",
-    "former yugoslav republic of macedonia":        "north macedonia",
-    "fyrom":                                        "north macedonia",
-    "mkd":                                          "north macedonia",
+    "republicofnorthmacedonia":                     "northmacedonia",
+    "macedonia":                                    "northmacedonia",
+    "formeryugoslavrepublicofmacedonia":            "northmacedonia",
+    "fyrom":                                        "northmacedonia",
+    "mkd":                                          "northmacedonia",
 
     # ── Norway ────────────────────────────────────────────────────────────────
-    "kingdom of norway":                            "norway",
+    "kingdomofnorway":                              "norway",
     "norge":                                        "norway",
     "noreg":                                        "norway",
 
     # ── Oman ──────────────────────────────────────────────────────────────────
-    "sultanate of oman":                            "oman",
-    "muscat and oman":                              "oman",
+    "sultanateofoman":                              "oman",
+    "muscatandoman":                                "oman",
 
     # ── Pakistan ──────────────────────────────────────────────────────────────
-    "islamic republic of pakistan":                 "pakistan",
+    "islamicrepublicofpakistan":                    "pakistan",
 
     # ── Palau ─────────────────────────────────────────────────────────────────
-    "republic of palau":                            "palau",
+    "republicofpalau":                              "palau",
     "belau":                                        "palau",
 
     # ── Palestine ─────────────────────────────────────────────────────────────
-    "state of palestine":                           "palestine",
-    "palestinian territory":                        "palestine",
-    "west bank and gaza":                           "palestine",
-    "palestinian authority":                        "palestine",
-    "west bank":                                    "palestine",
+    "stateofpalestine":                             "palestine",
+    "palestinianterritory":                         "palestine",
+    "westbankandgaza":                              "palestine",
+    "palestinianauthority":                         "palestine",
+    "westbank":                                     "palestine",
     "gaza":                                         "palestine",
 
     # ── Panama ────────────────────────────────────────────────────────────────
-    "republic of panama":                           "panama",
+    "republicofpanama":                             "panama",
 
     # ── Papua New Guinea ──────────────────────────────────────────────────────
-    "png":                                          "papua new guinea",
-    "independent state of papua new guinea":        "papua new guinea",
+    "png":                                          "papuanewguinea",
+    "independentstateofpapuanewguinea":             "papuanewguinea",
 
     # ── Paraguay ──────────────────────────────────────────────────────────────
-    "republic of paraguay":                         "paraguay",
+    "republicofparaguay":                           "paraguay",
 
     # ── Peru ──────────────────────────────────────────────────────────────────
-    "republic of peru":                             "peru",
+    "republicofperu":                               "peru",
 
     # ── Philippines ───────────────────────────────────────────────────────────
-    "republic of the philippines":                  "philippines",
+    "republicofthephilippines":                     "philippines",
     "pilipinas":                                    "philippines",
 
     # ── Poland ────────────────────────────────────────────────────────────────
-    "republic of poland":                           "poland",
+    "republicofpoland":                             "poland",
     "polska":                                       "poland",
 
     # ── Portugal ──────────────────────────────────────────────────────────────
-    "portuguese republic":                          "portugal",
+    "portugueserepublic":                           "portugal",
 
     # ── Qatar ─────────────────────────────────────────────────────────────────
-    "state of qatar":                               "qatar",
+    "stateofqatar":                                 "qatar",
     "katar":                                        "qatar",
 
     # ── Republic of Serbia ────────────────────────────────────────────────────
-    "serbia":                                       "republic of serbia",
-    "srbija":                                       "republic of serbia",
-    "srb":                                          "republic of serbia",
+    "serbia":                                       "republicofserbia",
+    "srbija":                                       "republicofserbia",
+    "srb":                                          "republicofserbia",
 
     # ── Republic of the Congo ─────────────────────────────────────────────────
     # Note: bare "congo" is deliberately omitted — too ambiguous with DRC
-    "congo brazzaville":                            "republic of the congo",
-    "congo republic":                               "republic of the congo",
-    "cog":                                          "republic of the congo",
+    "congobrazzaville":                             "republicofthecongo",
+    "congorepublic":                                "republicofthecongo",
+    "cog":                                          "republicofthecongo",
 
     # ── Romania ───────────────────────────────────────────────────────────────
     "rumania":                                      "romania",
     "roumania":                                     "romania",
 
     # ── Russia ────────────────────────────────────────────────────────────────
-    "russian federation":                           "russia",
+    "russianfederation":                            "russia",
     "rus":                                          "russia",
     "ussr":                                         "russia",
-    "soviet union":                                 "russia",
+    "sovietunion":                                  "russia",
 
     # ── Rwanda ────────────────────────────────────────────────────────────────
-    "republic of rwanda":                           "rwanda",
+    "republicofrwanda":                             "rwanda",
 
     # ── Saint Kitts and Nevis ─────────────────────────────────────────────────
-    "st kitts and nevis":                           "saint kitts and nevis",
-    "st kitts":                                     "saint kitts and nevis",
-    "saint kitts":                                  "saint kitts and nevis",
-    "skn":                                          "saint kitts and nevis",
+    "stkittsandnevis":                              "saintkittsandnevis",
+    "stkitts":                                      "saintkittsandnevis",
+    "saintkitts":                                   "saintkittsandnevis",
+    "skn":                                          "saintkittsandnevis",
 
     # ── Saint Lucia ───────────────────────────────────────────────────────────
-    "st lucia":                                     "saint lucia",
-    "lca":                                          "saint lucia",
+    "stlucia":                                      "saintlucia",
+    "lca":                                          "saintlucia",
 
     # ── Saint Vincent and the Grenadines ──────────────────────────────────────
-    "st vincent and the grenadines":                "saint vincent and the grenadines",
-    "saint vincent":                                "saint vincent and the grenadines",
-    "st vincent":                                   "saint vincent and the grenadines",
-    "vct":                                          "saint vincent and the grenadines",
+    "stvincentandthegrenadines":                    "saintvincentandthegrenadines",
+    "saintvincent":                                 "saintvincentandthegrenadines",
+    "stvincent":                                    "saintvincentandthegrenadines",
+    "vct":                                          "saintvincentandthegrenadines",
 
     # ── Samoa ─────────────────────────────────────────────────────────────────
-    "independent state of samoa":                   "samoa",
-    "western samoa":                                "samoa",
+    "independentstateofsamoa":                      "samoa",
+    "westernsamoa":                                 "samoa",
 
     # ── San Marino ────────────────────────────────────────────────────────────
-    "republic of san marino":                       "san marino",
+    "republicofsanmarino":                          "sanmarino",
 
     # ── Saudi Arabia ──────────────────────────────────────────────────────────
-    "kingdom of saudi arabia":                      "saudi arabia",
-    "ksa":                                          "saudi arabia",
+    "kingdomofsaudiarabia":                         "saudiarabia",
+    "ksa":                                          "saudiarabia",
 
     # ── Senegal ───────────────────────────────────────────────────────────────
-    "republic of senegal":                          "senegal",
+    "republicofsenegal":                            "senegal",
 
     # ── Seychelles ────────────────────────────────────────────────────────────
-    "republic of seychelles":                       "seychelles",
+    "republicofseychelles":                         "seychelles",
 
     # ── Sierra Leone ──────────────────────────────────────────────────────────
-    "republic of sierra leone":                     "sierra leone",
+    "republicofsierraleone":                        "sierraleone",
 
     # ── Singapore ─────────────────────────────────────────────────────────────
-    "republic of singapore":                        "singapore",
+    "republicofsingapore":                          "singapore",
 
     # ── Slovakia ──────────────────────────────────────────────────────────────
-    "slovak republic":                              "slovakia",
+    "slovakrepublic":                               "slovakia",
 
     # ── Slovenia ──────────────────────────────────────────────────────────────
-    "republic of slovenia":                         "slovenia",
+    "republicofslovenia":                           "slovenia",
     "slovenija":                                    "slovenia",
 
     # ── Somalia ───────────────────────────────────────────────────────────────
-    "federal republic of somalia":                  "somalia",
-    "somali republic":                              "somalia",
+    "federalrepublicofsomalia":                     "somalia",
+    "somalirepublic":                               "somalia",
 
     # ── South Africa ──────────────────────────────────────────────────────────
-    "republic of south africa":                     "south africa",
-    "rsa":                                          "south africa",
+    "republicofsouthafrica":                        "southafrica",
+    "rsa":                                          "southafrica",
 
     # ── South Korea ───────────────────────────────────────────────────────────
-    "republic of korea":                            "south korea",
-    "rok":                                          "south korea",
-    "korea":                                        "south korea",   # ambiguous but south is more common
-    "kor":                                          "south korea",
+    "republicofkorea":                              "southkorea",
+    "rok":                                          "southkorea",
+    "korea":                                        "southkorea",
+    "kor":                                          "southkorea",
 
     # ── South Sudan ───────────────────────────────────────────────────────────
-    "republic of south sudan":                      "south sudan",
+    "republicofsouthsudan":                         "southsudan",
 
     # ── Spain ─────────────────────────────────────────────────────────────────
-    "kingdom of spain":                             "spain",
+    "kingdomofspain":                               "spain",
     "espana":                                       "spain",
 
     # ── Sri Lanka ─────────────────────────────────────────────────────────────
-    "democratic socialist republic of sri lanka":   "sri lanka",
-    "ceylon":                                       "sri lanka",
+    "democraticsocialistrepublicofsrilanka":        "srilanka",
+    "ceylon":                                       "srilanka",
 
     # ── Sudan ─────────────────────────────────────────────────────────────────
-    "republic of the sudan":                        "sudan",
-    "north sudan":                                  "sudan",
+    "republicofthesudan":                           "sudan",
+    "northsudan":                                   "sudan",
 
     # ── Suriname ──────────────────────────────────────────────────────────────
-    "republic of suriname":                         "suriname",
+    "republicofsuriname":                           "suriname",
     "surinam":                                      "suriname",
 
     # ── Sweden ────────────────────────────────────────────────────────────────
-    "kingdom of sweden":                            "sweden",
+    "kingdomofsweden":                              "sweden",
     "sverige":                                      "sweden",
 
     # ── Switzerland ───────────────────────────────────────────────────────────
-    "swiss confederation":                          "switzerland",
+    "swissconfederation":                           "switzerland",
     "helvetia":                                     "switzerland",
     "suisse":                                       "switzerland",
     "schweiz":                                      "switzerland",
@@ -676,178 +674,178 @@ ALIASES = {
     "che":                                          "switzerland",
 
     # ── Syria ─────────────────────────────────────────────────────────────────
-    "syrian arab republic":                         "syria",
-    "syrian republic":                              "syria",
+    "syrianarabrepublic":                           "syria",
+    "syrianrepublic":                               "syria",
 
     # ── São Tomé and Príncipe ─────────────────────────────────────────────────
-    "sao tome":                                     "sao tome and principe",
-    "democratic republic of sao tome and principe": "sao tome and principe",
+    "saotome":                                      "saotomeandprincipe",
+    "democraticrepublicofsaotomeandprincipe":       "saotomeandprincipe",
 
     # ── Taiwan ────────────────────────────────────────────────────────────────
-    "republic of china":                            "taiwan",
+    "republicofchina":                              "taiwan",
     "roc":                                          "taiwan",
-    "chinese taipei":                               "taiwan",
+    "chinesearchipelagoi":                          "taiwan",
     "formosa":                                      "taiwan",
     "twn":                                          "taiwan",
 
     # ── Tajikistan ────────────────────────────────────────────────────────────
-    "republic of tajikistan":                       "tajikistan",
+    "republicoftajikistan":                         "tajikistan",
     "tadzhikistan":                                 "tajikistan",
     "tadjikistan":                                  "tajikistan",
 
     # ── Thailand ──────────────────────────────────────────────────────────────
-    "kingdom of thailand":                          "thailand",
+    "kingdomofthailand":                            "thailand",
     "siam":                                         "thailand",
     "tha":                                          "thailand",
 
     # ── The Bahamas ───────────────────────────────────────────────────────────
-    "bahamas":                                      "the bahamas",
-    "commonwealth of the bahamas":                  "the bahamas",
-    "bhs":                                          "the bahamas",
+    "bahamas":                                      "thebahamas",
+    "commonwealthofthebahamas":                     "thebahamas",
+    "bhs":                                          "thebahamas",
 
     # ── Togo ──────────────────────────────────────────────────────────────────
-    "togolese republic":                            "togo",
+    "togoleserepublic":                             "togo",
 
     # ── Tonga ─────────────────────────────────────────────────────────────────
-    "kingdom of tonga":                             "tonga",
+    "kingdomoftonga":                               "tonga",
 
     # ── Trinidad and Tobago ───────────────────────────────────────────────────
-    "trinidad":                                     "trinidad and tobago",
-    "tobago":                                       "trinidad and tobago",
-    "trinidad tobago":                              "trinidad and tobago",
-    "tt":                                           "trinidad and tobago",
+    "trinidad":                                     "trinidadandtobago",
+    "tobago":                                       "trinidadandtobago",
+    "trinidadtobago":                               "trinidadandtobago",
+    "tt":                                           "trinidadandtobago",
 
     # ── Tunisia ───────────────────────────────────────────────────────────────
-    "republic of tunisia":                          "tunisia",
+    "republicoftunisia":                            "tunisia",
     "tunisie":                                      "tunisia",
 
     # ── Turkey ────────────────────────────────────────────────────────────────
-    "republic of turkey":                           "turkey",
+    "republicofturkey":                             "turkey",
     "turkiye":                                      "turkey",
-    "republic of turkiye":                          "turkey",
+    "republicofturkiye":                            "turkey",
     "tur":                                          "turkey",
 
     # ── Turkmenistan ──────────────────────────────────────────────────────────
-    "republic of turkmenistan":                     "turkmenistan",
+    "republicofturkmenistan":                       "turkmenistan",
 
     # ── Uganda ────────────────────────────────────────────────────────────────
-    "republic of uganda":                           "uganda",
+    "republicofuganda":                             "uganda",
 
     # ── Ukraine ───────────────────────────────────────────────────────────────
-    "the ukraine":                                  "ukraine",
+    "theukraine":                                   "ukraine",
     "ukr":                                          "ukraine",
 
     # ── United Arab Emirates ──────────────────────────────────────────────────
-    "uae":                                          "united arab emirates",
-    "emirates":                                     "united arab emirates",
-    "are":                                          "united arab emirates",
+    "uae":                                          "unitedarabemirates",
+    "emirates":                                     "unitedarabemirates",
+    "are":                                          "unitedarabemirates",
 
     # ── United Kingdom ────────────────────────────────────────────────────────
-    "uk":                                           "united kingdom",
-    "great britain":                                "united kingdom",
-    "britain":                                      "united kingdom",
-    "england":                                      "united kingdom",   # note: technically one part
-    "gbr":                                          "united kingdom",
-    "gb":                                           "united kingdom",
+    "uk":                                           "unitedkingdom",
+    "greatbritain":                                 "unitedkingdom",
+    "britain":                                      "unitedkingdom",
+    "england":                                      "unitedkingdom",
+    "gbr":                                          "unitedkingdom",
+    "gb":                                           "unitedkingdom",
 
     # ── United Republic of Tanzania ───────────────────────────────────────────
-    "tanzania":                                     "united republic of tanzania",
-    "republic of tanzania":                         "united republic of tanzania",
-    "tanganyika":                                   "united republic of tanzania",
-    "tza":                                          "united republic of tanzania",
+    "tanzania":                                     "unitedrepublicoftanzania",
+    "republicoftanzania":                           "unitedrepublicoftanzania",
+    "tanganyika":                                   "unitedrepublicoftanzania",
+    "tza":                                          "unitedrepublicoftanzania",
 
     # ── United States of America ──────────────────────────────────────────────
-    "united states":                                "united states of america",
-    "usa":                                          "united states of america",
-    "us":                                           "united states of america",
-    "america":                                      "united states of america",
-    "us of a":                                      "united states of america",
-    "the united states":                            "united states of america",
-    "the us":                                       "united states of america",
+    "unitedstates":                                 "unitedstatesofamerica",
+    "usa":                                          "unitedstatesofamerica",
+    "us":                                           "unitedstatesofamerica",
+    "america":                                      "unitedstatesofamerica",
+    "usofa":                                        "unitedstatesofamerica",
+    "theunitedstates":                              "unitedstatesofamerica",
+    "theus":                                        "unitedstatesofamerica",
 
     # ── Uruguay ───────────────────────────────────────────────────────────────
-    "oriental republic of uruguay":                 "uruguay",
+    "orientalrepublicofuruguay":                    "uruguay",
     "ury":                                          "uruguay",
 
     # ── Uzbekistan ────────────────────────────────────────────────────────────
-    "republic of uzbekistan":                       "uzbekistan",
+    "republicofuzbekistan":                         "uzbekistan",
     "uzb":                                          "uzbekistan",
 
     # ── Vanuatu ───────────────────────────────────────────────────────────────
-    "republic of vanuatu":                          "vanuatu",
-    "new hebrides":                                 "vanuatu",
+    "republicofvanuatu":                            "vanuatu",
+    "newhebrides":                                  "vanuatu",
 
     # ── Vatican ───────────────────────────────────────────────────────────────
-    "vatican city":                                 "vatican",
-    "holy see":                                     "vatican",
-    "holy see vatican city state":                  "vatican",
+    "vaticancity":                                  "vatican",
+    "holysee":                                      "vatican",
+    "holyseevaticanitystate":                       "vatican",
     "vat":                                          "vatican",
 
     # ── Venezuela ─────────────────────────────────────────────────────────────
-    "bolivarian republic of venezuela":             "venezuela",
+    "bolivarianrepublicofvenezuela":                "venezuela",
     "ven":                                          "venezuela",
 
     # ── Vietnam ───────────────────────────────────────────────────────────────
-    "viet nam":                                     "vietnam",
-    "socialist republic of vietnam":                "vietnam",
+    "vietnam":                                      "vietnam",
+    "socialistrepublicofvietnam":                   "vietnam",
     "vnm":                                          "vietnam",
 
     # ── Western Sahara ────────────────────────────────────────────────────────
-    "sahrawi arab democratic republic":             "western sahara",
-    "sadr":                                         "western sahara",
-    "esh":                                          "western sahara",
+    "sahrawiarabdemocraticrepublic":                "westernsahara",
+    "sadr":                                         "westernsahara",
+    "esh":                                          "westernsahara",
 
     # ── Yemen ─────────────────────────────────────────────────────────────────
-    "republic of yemen":                            "yemen",
-    "north yemen":                                  "yemen",
-    "south yemen":                                  "yemen",
+    "republicofyemen":                              "yemen",
+    "northyemen":                                   "yemen",
+    "southyemen":                                   "yemen",
     "yem":                                          "yemen",
 
     # ── Zambia ────────────────────────────────────────────────────────────────
-    "republic of zambia":                           "zambia",
-    "northern rhodesia":                            "zambia",
+    "republicofzambia":                             "zambia",
+    "northernrhodesia":                             "zambia",
     "zmb":                                          "zambia",
 
     # ── Zimbabwe ──────────────────────────────────────────────────────────────
-    "republic of zimbabwe":                         "zimbabwe",
+    "republicofzimbabwe":                           "zimbabwe",
     "rhodesia":                                     "zimbabwe",
     "zwe":                                          "zimbabwe",
 
     # ── eSwatini ──────────────────────────────────────────────────────────────
     "swaziland":                                    "eswatini",
-    "kingdom of eswatini":                          "eswatini",
-    "kingdom of swaziland":                         "eswatini",
+    "kingdomofeswatini":                            "eswatini",
+    "kingdomofswaziland":                           "eswatini",
     "swz":                                          "eswatini",
 
     # ── continents ────────────────────────────────────────────────────────────
     # ── North America ─────────────────────────────────────────────────────────
-    "north america":            "north america",
-    "northern america":         "north america",
-    "n america":                "north america",
+    "northamerica":             "northamerica",
+    "northernamerica":          "northamerica",
+    "namerica":                 "northamerica",
 
     # ── South America ─────────────────────────────────────────────────────────
-    "south america":            "south america",
-    "southern america":         "south america",
-    "latin america":            "south america",
-    "s america":                "south america",
+    "southamerica":             "southamerica",
+    "southernamerica":          "southamerica",
+    "latinamerica":             "southamerica",
+    "samerica":                 "southamerica",
 
     # ── Europe ────────────────────────────────────────────────────────────────
     "europe":                   "europe",
     "europa":                   "europe",
-    "european continent":       "europe",
+    "europeancontinent":        "europe",
 
     # ── Asia ──────────────────────────────────────────────────────────────────
     "asia":                     "asia",
-    "asian continent":          "asia",
+    "asiancontinent":           "asia",
 
     # ── Africa ────────────────────────────────────────────────────────────────
     "africa":                   "africa",
-    "african continent":        "africa",
+    "africancontinent":         "africa",
 
     # ── Oceania ───────────────────────────────────────────────────────────────
     "oceania":                  "oceania",
-    "pacific islands":          "oceania",
+    "pacificislands":           "oceania",
     "australasia":              "oceania",
-    "australia and oceania":    "oceania",
-    "australia":                "oceania"
+    "australiaandoceania":      "oceania",
+    "australia":                "oceania",
 }

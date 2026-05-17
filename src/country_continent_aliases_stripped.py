@@ -1,4 +1,14 @@
-ALIASES = {
+import unicodedata
+import re
+def normalise(country: str) -> str:
+    country = unicodedata.normalize("NFD", country) # decomposes special characters: ô → o + ^
+    country = "".join(c for c in country if unicodedata.category(c) != "Mn") # drop all accents (diacritic characters)
+    country = country.lower() # lowercase everything
+    country = re.sub(r"[^a-z0-9\s]", "", country) # removes forbidden characters
+    country = re.sub(r"\s+", "", country) # removes multi-spaces in middle and all spaces at beginning and end
+    return country
+
+A = {
 
     # ── Afghanistan ───────────────────────────────────────────────────────────
     "afghan":                                       "afghanistan",
@@ -851,3 +861,5 @@ ALIASES = {
     "australia and oceania":    "oceania",
     "australia":                "oceania"
 }
+
+ALIASES = {normalise(k): v for k, v in A.items()}
