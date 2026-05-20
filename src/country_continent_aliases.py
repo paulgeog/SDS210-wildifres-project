@@ -546,6 +546,9 @@ ALIASES = {
     # ── Philippines ───────────────────────────────────────────────────────────
     "republicofthephilippines":                     "philippines",
     "pilipinas":                                    "philippines",
+    "philipines":                                   "philippines",
+    "phillipines":                                  "philippines",
+    "phillippines":                                 "philippines",
 
     # ── Poland ────────────────────────────────────────────────────────────────
     "republicofpoland":                             "poland",
