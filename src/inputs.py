@@ -3,7 +3,6 @@
 # --------------------------------------------------------------------------------------------------
 
 # imports
-import ipywidgets as widgets
 from IPython.display import display
 
 params = {}
@@ -88,7 +87,6 @@ def generate_query_parameters():
     del cleaned["browser"]
     del cleaned["max_rows"]
     del cleaned["save"]
-    del cleaned["wf"]
     return cleaned
 
 def generate_mapping_parameters(WF):
@@ -104,4 +102,7 @@ def check_params(PARAMS: dict):
         return
     else:
         raise ValueError("Sensor/Dataset not specified.")
+    
+def get_params():
+    return params
 

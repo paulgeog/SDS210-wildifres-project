@@ -14,6 +14,7 @@ from datetime import datetime, timedelta
 import warnings
 from .wildfire_class import WildFireQuery
 from .country_continent_gdf import COUNTRIES_GDF, CONTINENTS_GDF
+from .inputs import get_params
 
 
 def get_api_key():
@@ -349,7 +350,8 @@ def test_wf_empty(wf: WildFireQuery):
       raise ValueError("Empty dataset: nothing to visualise here. Try other parameters.")
     
 # max rows
-def test_max_rows(wf, max_rows):
+def test_max_rows(wf):
+  max_rows = get_params()["max_rows"]
   if len(wf.data) > max_rows:
       wf.sampled = True
       warnings.warn(
