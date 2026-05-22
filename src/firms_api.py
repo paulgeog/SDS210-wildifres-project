@@ -45,3 +45,5 @@ def get_availability_all(api_key):
     display(result.head(8))
     return result
 
+# api query for gettin gthe wildfire data and its helper functions
+

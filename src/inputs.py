@@ -40,3 +40,17 @@ def ask_browser():
         params["browser"] = False
     else:
         raise ValueError("Invalid input for 'open in browser'. Must be 'True' or 'False' or left empty.")
+    
+def ask_max_rows():
+    _ask("max_rows", "Enter number of data points to render:")
+    if params["max_rows"] == "":
+        return 5000
+    try:
+        params["max_rows"] = int(params["max_rows"])
+    except ValueError:
+        raise ValueError("Maximum number of rows must be an INTEGER.")
+    return params["max_rows"]
+    
+def generate_map():
+    params["enter"] = input("Press 'Enter' to generate the map")
+    del params["enter"]
