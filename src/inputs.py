@@ -41,15 +41,30 @@ def ask_n_days():
         raise ValueError("Invalid input for number of days. Must be an integer between 1 and 5 or left empty.")
     
 def ask_browser():
-    _ask("browser", "Enter 'True' or 'False':")
+    _ask("browser", "Open in Browser: Enter 'True' or 'False':")
     if params["browser"] == "":
         params["browser"] = False
+    elif type(params["browser"]) == bool:
+        params["browser"] = params["browser"]
     elif params["browser"].lower() == 'true':
         params["browser"] = True
     elif params["browser"].lower() == 'false':
         params["browser"] = False
     else:
         raise ValueError("Invalid input for 'open in browser'. Must be 'True' or 'False' or left empty.")
+    
+def ask_save():
+    _ask("save", "Save map: Enter 'True' or 'False':")
+    if params["save"] == "":
+        params["save"] = True
+    elif type(params["save"]) == bool:
+        params["save"] = params["save"]
+    elif params["save"].lower() == 'true':
+        params["save"] = True
+    elif params["save"].lower() == 'false':
+        params["save"] = False
+    else:
+        raise ValueError("Invalid input for 'save map'. Must be 'True' or 'False' or left empty.")
     
 def ask_max_rows():
     _ask("max_rows", "Enter number of data points to render:")
@@ -68,9 +83,21 @@ def generate_map():
 
 def generate_query_parameters():
     cleaned = {k: v for k, v in params.items() if v != ""}
+    if params.get("browser") == True:
+        params["save"] = True
     del cleaned["browser"]
     del cleaned["max_rows"]
+    del cleaned["save"]
+    del cleaned["wf"]
     return cleaned
+
+def generate_mapping_parameters(WF):
+    include = ["save", "browser", "max_rows"]
+    result = {}
+    for key in include:
+        result[key] = params[key]
+    result["wf"] = WF
+    return result
 
 def check_params(PARAMS: dict):
     if "sensor" in PARAMS:

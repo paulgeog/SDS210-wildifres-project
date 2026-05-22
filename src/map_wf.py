@@ -8,7 +8,7 @@ import branca.colormap as cm
 import webbrowser
 import os
 
-def map_wf(wf: WildFireQuery, MAX_ROWS: int, save: bool = True) -> fm.Map:
+def map_wf(wf: WildFireQuery, MAX_ROWS: int, save: bool = True, browser: bool = False) -> fm.Map:
     """
     map_wf creates a folium map with wildfire data from FIRMS API
 
@@ -26,7 +26,8 @@ def map_wf(wf: WildFireQuery, MAX_ROWS: int, save: bool = True) -> fm.Map:
     Parameters:
     -----------
     wf : WildFireQuery, entire class object which has the cleaned and clustered gdf stored as attributes.
-    save: bool, toggle saving map as html and open in browser automatically
+    save: bool, toggle saving map as html
+    browser: bool, opens the notebook in the browser (requires saving)
 
     Returns:
     --------
@@ -88,7 +89,7 @@ def map_wf(wf: WildFireQuery, MAX_ROWS: int, save: bool = True) -> fm.Map:
     <div style="
         position: fixed;
         top: 10px;
-        left: 50px;
+        right: 10px;
         z-index: 1000;
         background-color: rgba(0,0,0,0.6);
         color: white;
@@ -485,7 +486,8 @@ def map_wf(wf: WildFireQuery, MAX_ROWS: int, save: bool = True) -> fm.Map:
             ).add_to(other_land_clusters_group)
             other_land_clusters_group.add_to(m)
 
-    fm.LayerControl(collapsed=True).add_to(m)
+    fm.LayerControl(collapsed=False,
+                    position="topleft").add_to(m)
     plugins.MeasureControl(
         position="bottomleft",
         primary_length_unit="kilometers",
@@ -497,6 +499,11 @@ def map_wf(wf: WildFireQuery, MAX_ROWS: int, save: bool = True) -> fm.Map:
     if save == True:
         output_path = os.path.join(os.getcwd(), f"wildfire_{wf.area_display}_{wf.date}.html")
         m.save(output_path)
+    
+    if browser == True:
         webbrowser.open(f"file://{output_path}")
-
+    
+    if browser == False:
+        m
+        
     return m
