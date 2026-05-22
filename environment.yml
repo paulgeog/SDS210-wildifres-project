@@ -18,3 +18,4 @@ dependencies:
   - branca=0.8.*
   - shapely=2.1.*
   - pyproj=3.7.*
+  - nbstripout=0.9.*
