@@ -195,7 +195,7 @@ def map_wf(wf: WildFireQuery, MAX_ROWS: int, save: bool = True, browser: bool = 
         colormap_severity.caption = "Severity Score"
 
         # plot points
-        severity_clusters = fm.FeatureGroup(name="Severity Score", show=False)
+        severity_clusters = fm.FeatureGroup(name="WFSS", show=False)
         fm.GeoJson(
             severity_gdf_plot[["geometry", "display_type", "severity_class"]],
             marker=fm.CircleMarker(
@@ -205,7 +205,7 @@ def map_wf(wf: WildFireQuery, MAX_ROWS: int, save: bool = True, browser: bool = 
             ),
             tooltip=fm.GeoJsonTooltip(
                 fields=["display_type", "severity_class"],
-                aliases=["Object:", "Severity Score"]
+                aliases=["Object:", "WFSS"]
                 ),
             style_function=lambda feature: {
                         "color": colormap_severity(feature["properties"]["severity_class"]),
