@@ -9,8 +9,18 @@ from IPython.display import display
 params = {}
 
 def _ask(key, prompt):
-    params[key] = input(prompt)
-    print(f"{key} input: {params[key]}")
+    value = input(prompt)
+    if value.lower() == 'x':
+        if key in params and params[key] != "":
+            print(f"{key} kept as: {params[key]}")
+        else:
+            raise ValueError(f"No value for {key} yet, nothing to keep.")
+    else:
+        params[key] = value
+        if value == '':
+            print(f"{key} set to: default value")
+        else:
+            print(f"{key} set to: {params[key]}")
 
 def ask_area():
     _ask("area", "Enter area:")
@@ -33,8 +43,8 @@ def ask_n_days():
 def ask_browser():
     _ask("browser", "Enter 'True' or 'False':")
     if params["browser"] == "":
-        return
-    if params["browser"].lower() == 'true':
+        params["browser"] = False
+    elif params["browser"].lower() == 'true':
         params["browser"] = True
     elif params["browser"].lower() == 'false':
         params["browser"] = False
@@ -44,6 +54,7 @@ def ask_browser():
 def ask_max_rows():
     _ask("max_rows", "Enter number of data points to render:")
     if params["max_rows"] == "":
+        params["max_rows"] = 5000
         return 5000
     try:
         params["max_rows"] = int(params["max_rows"])
@@ -60,3 +71,10 @@ def generate_query_parameters():
     del cleaned["browser"]
     del cleaned["max_rows"]
     return cleaned
+
+def check_params(PARAMS: dict):
+    if "sensor" in PARAMS:
+        return
+    else:
+        raise ValueError("Sensor/Dataset not specified.")
+

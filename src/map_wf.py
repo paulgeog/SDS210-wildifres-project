@@ -485,7 +485,7 @@ def map_wf(wf: WildFireQuery, MAX_ROWS: int, save: bool = True) -> fm.Map:
             ).add_to(other_land_clusters_group)
             other_land_clusters_group.add_to(m)
 
-    fm.LayerControl(collapsed=False).add_to(m)
+    fm.LayerControl(collapsed=True).add_to(m)
     plugins.MeasureControl(
         position="bottomleft",
         primary_length_unit="kilometers",
