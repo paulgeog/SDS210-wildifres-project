@@ -54,3 +54,9 @@ def ask_max_rows():
 def generate_map():
     params["enter"] = input("Press 'Enter' to generate the map")
     del params["enter"]
+
+def generate_query_parameters():
+    cleaned = {k: v for k, v in params.items() if v != ""}
+    del cleaned["browser"]
+    del cleaned["max_rows"]
+    return cleaned
