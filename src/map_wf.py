@@ -495,15 +495,5 @@ def map_wf(wf: WildFireQuery, MAX_ROWS: int, save: bool = True, browser: bool = 
         primary_area_unit="sqmeters",
         secondary_area_unit="acres",
     ).add_to(m)
-
-    if save == True:
-        output_path = os.path.join(os.getcwd(), f"wildfire_{wf.area_display}_{wf.date}.html")
-        m.save(output_path)
-    
-    if browser == True:
-        webbrowser.open(f"file://{output_path}")
-    
-    if browser == False:
-        m
         
     return m
