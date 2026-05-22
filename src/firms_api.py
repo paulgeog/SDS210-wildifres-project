@@ -39,3 +39,9 @@ def get_transaction_count(api_key):
     print ("Error in our call.")
   return count
 
+def get_availability_all(api_key):
+    url = 'https://firms.modaps.eosdis.nasa.gov/api/data_availability/csv/' + api_key + '/ALL'
+    result = pd.read_csv(url) 
+    display(result.head(8))
+    return result
+

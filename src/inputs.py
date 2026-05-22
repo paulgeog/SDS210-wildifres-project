@@ -9,15 +9,6 @@ from IPython.display import display
 params = {}
 
 def _ask(key, prompt):
-    text_input = widgets.Text(description=prompt)
-
-    def handle_submit(widget):
-        params[key] = widget.value # passes user input to input dict
-
-    text_input.on_submit(handle_submit)
-    display(text_input)
-
-def _ask(key, prompt):
     params[key] = input(prompt)
     print(f"{key} input: {params[key]}")
 
@@ -26,3 +17,26 @@ def ask_area():
 
 def ask_date():
     _ask("date", "Enter date:")
+
+def ask_sensor():
+    _ask("sensor", "Enter sensor/dataset:")
+
+def ask_n_days():
+    _ask("n_days", "Enter time range:")
+    if params["n_days"] == "":
+        return
+    try:
+        params["n_days"] = int(params["n_days"])
+    except ValueError:
+        raise ValueError("Invalid input for number of days. Must be an integer between 1 and 5 or left empty.")
+    
+def ask_browser():
+    _ask("browser", "Enter 'True' or 'False':")
+    if params["browser"] == "":
+        return
+    if params["browser"].lower() == 'true':
+        params["browser"] = True
+    elif params["browser"].lower() == 'false':
+        params["browser"] = False
+    else:
+        raise ValueError("Invalid input for 'open in browser'. Must be 'True' or 'False' or left empty.")
