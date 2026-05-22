@@ -192,7 +192,7 @@ def map_wf(wf: WildFireQuery, MAX_ROWS: int, save: bool = True, browser: bool = 
                     vmin=1,
                     vmax=10
                     )
-        colormap_severity.caption = "Severity Score"
+        colormap_severity.caption = "WFSS"
 
         # plot points
         severity_clusters = fm.FeatureGroup(name="WFSS", show=False)
@@ -229,7 +229,7 @@ def map_wf(wf: WildFireQuery, MAX_ROWS: int, save: bool = True, browser: bool = 
                 font-family: Arial;
                 font-size: 12px;
             ">
-                <b>Severity Score</b><br>
+                <b>WFSS</b><br>
             """
         for i, color in enumerate(severity_colors):
             label = "> 10" if i == len(severity_colors) - 1 else i + 1
