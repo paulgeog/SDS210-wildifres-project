@@ -10,7 +10,7 @@ from dataclasses import dataclass
 import geopandas as gpd
 
 
-from src.country_continent_gdf import COUNTRIES_GDF, CONTINENTS_GDF
+from .country_continent_gdf import COUNTRIES_GDF, CONTINENTS_GDF
 
 @dataclass
 class WildFireQuery:

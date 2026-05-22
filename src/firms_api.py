@@ -11,6 +11,7 @@ from dotenv import load_dotenv
 import re
 import unicodedata
 from datetime import datetime, timedelta
+import warnings
 from .wildfire_class import WildFireQuery
 from .country_continent_gdf import COUNTRIES_GDF, CONTINENTS_GDF
 
@@ -338,3 +339,21 @@ def area_api_query(api_key: str, sensor: str, area: list|str = 'world', date: st
     )
     print (f'Our current transaction count is {get_transaction_count(api_key)}/5000')
     return output
+
+# -------------------
+# Fail-Safe functions
+# -------------------
+# empty dataset
+def test_wf_empty(wf: WildFireQuery):
+    if len(wf.data) == 0:
+      raise ValueError("Empty dataset: nothing to visualise here. Try other parameters.")
+    
+# max rows
+def test_max_rows(wf, max_rows):
+  if len(wf.data) > max_rows:
+      wf.sampled = True
+      warnings.warn(
+          f"Dataset too large for individual point plotting ({len(wf.data)} rows). "
+          f"A random subset with n={max_rows} is displayed instead",
+          UserWarning
+    )
